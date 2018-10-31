@@ -23,7 +23,7 @@ int main() {
   << rangeOfShort << "個の整数を扱える." << endl;
 
   short sizeOfInt;
-  float rangeOfInt;
+  double rangeOfInt;
 
   cout << endl
   << "intのサイズは" << sizeOfInt << "バイトである." << endl
@@ -31,7 +31,7 @@ int main() {
   << rangeOfInt << "個の整数を扱える." << endl;
 
   short sizeOfLong;
-  float rangeOfLong;
+  double rangeOfLong;
 
   cout << endl
   << "longのサイズは" << sizeOfLong << "バイトである." << endl
