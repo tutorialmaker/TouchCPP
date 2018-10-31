@@ -14,7 +14,7 @@ int main() {
   */
 
   int8_t octet;
-  short sizeOfShort;
+  size_t sizeOfShort;
   int rangeOfShort;
 
   cout << endl
@@ -22,7 +22,7 @@ int main() {
   << "つまり" << sizeOfShort * octet << "ビットであり, 正負合わせて"
   << rangeOfShort << "個の整数を扱える." << endl;
 
-  short sizeOfInt;
+  size_t sizeOfInt;
   double rangeOfInt;
 
   cout << endl
@@ -30,7 +30,7 @@ int main() {
   << "つまり" << sizeOfInt * octet << "ビットであり, 正負合わせて"
   << rangeOfInt << "個の整数を扱える." << endl;
 
-  short sizeOfLong;
+  size_t sizeOfLong;
   double rangeOfLong;
 
   cout << endl
