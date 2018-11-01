@@ -9,7 +9,10 @@ int main() {
     octet
 
     以下の変数に文脈上適切な関数を用いて値を格納せよ.
-    sizeOfShort, rangeOfShort, sizeOfInt, rangeOfInt, sizeOfLong, rangeOfLong
+    sizeOfShort, rangeOfShort,
+    sizeOfInt, rangeOfInt,
+    sizeOfLong, rangeLong,
+    sizeOfLL, rangeOfLL
 
   */
 
@@ -37,6 +40,14 @@ int main() {
   << "longのサイズは" << sizeOfLong << "バイトである." << endl
   << "つまり" << sizeOfLong * octet << "ビットであり, 正負合わせて"
   << rangeOfLong << "個の整数を扱える." << endl;
+
+  size_t sizeOfLL;
+  double rangeOfLL;
+
+  cout << endl
+  << "long longのサイズは" << sizeOfLL << "バイトである." << endl
+  << "つまり" << sizeOfLL * octet << "ビットであり, 正負合わせて"
+  << rangeOfLL << "個の整数を扱える." << endl;
 
   return 0;
 }
